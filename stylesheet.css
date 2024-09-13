@@ -7,6 +7,12 @@ header {
 header h1 {
 	color: springgreen;
 	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0px lightseagreen;
+}
+header p {
+	color: springgreen;
+	font-weight: bold;
+	text-shadow: 0.1em 0.1em 0px lightseagreen;
 }
 main {
 	margin: auto;
@@ -20,4 +26,5 @@ table, th, td {
 	border-color: black;
 	border-style: solid;
 	border-collapse: collapse;
+	margin: auto;
 }
