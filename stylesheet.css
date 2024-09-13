@@ -1,0 +1,23 @@
+body {
+	background: teal;
+}
+header {
+	text-align: center;
+}
+header h1 {
+	color: springgreen;
+	font-weight: bold;
+}
+main {
+	margin: auto;
+	max-width: 65em;
+	min-width: 15em;
+	background: paleturquoise;
+	padding: 1em;
+}
+table, th, td {
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	border-collapse: collapse;
+}
