@@ -42,3 +42,6 @@ table, th, td {
 	margin: auto;
 	writing-mode: horizontal-tb;
 }
+table {
+	margin: 1em auto;
+}
