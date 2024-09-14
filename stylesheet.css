@@ -11,6 +11,8 @@ header {
 	margin: auto;
 	padding: 1rem;
 	box-sizing: border-box;
+	
+	border-bottom: thick solid lightseagreen;
 }
 header h1 {
 	color: mediumspringgreen;
@@ -32,15 +34,17 @@ main {
 	width: 65em;
 	padding: 0 1em;
 	background: paleturquoise;
-	border-style: solid;
-	border-width: thick;
-	border-color: lightseagreen;
+	border-bottom: thick solid lightseagreen;
+	border-right: thick solid lightseagreen;
+	
+	border-top: thick solid darkslategray;
+	border-left: thick solid darkslategray;
 }
 /* This is for each "page" of the main, separated by a <hr> */
 main div {
 	writing-mode: vertical-rl;
 	width: inherit;
-	max-height: 30em;
+	height: 30em;
 	padding: 1em 0;
 }
 main hr {
