@@ -1,21 +1,34 @@
 body {
 	background: teal;
+	margin: 0;
+	padding: 0;
 }
 header {
 	text-align: center;
+	width: auto;
+	background: darkslategray;
+	min-width: 65em;
+	margin: auto;
+	padding: 1rem;
+	box-sizing: border-box;
 }
 header h1 {
 	color: mediumspringgreen;
 	font-weight: bold;
 	text-shadow: 0.1em 0.1em 0px lightseagreen;
+	margin: 0;
 }
 header p {
 	color: mediumspringgreen;
 	font-weight: bold;
 	text-shadow: 0.1em 0.1em 0px lightseagreen;
 }
+header a {
+	color: dodgerblue;
+	text-shadow: none;
+}
 main {
-	margin: auto;
+	margin: 1rem auto;
 	width: 65em;
 	padding: 0 1em;
 	background: paleturquoise;
