@@ -7,12 +7,12 @@ header {
 	text-align: center;
 	width: auto;
 	background: darkslategray;
-	min-width: 65em;
+	min-width: 74em;
 	margin: auto;
 	padding: 1rem;
 	box-sizing: border-box;
 	
-	border-bottom: thick solid lightseagreen;
+	border-bottom: 0.5em solid lightseagreen;
 }
 header h1 {
 	color: mediumspringgreen;
@@ -30,15 +30,15 @@ header a {
 	text-shadow: none;
 }
 main {
-	margin: 1rem auto;
+	margin: 1rem max(3rem, 50% - 68em/2);
 	width: 65em;
 	padding: 0 1em;
 	background: paleturquoise;
-	border-bottom: thick solid lightseagreen;
-	border-right: thick solid lightseagreen;
+	border-bottom: 0.5em solid lightseagreen;
+	border-right: 0.5em solid lightseagreen;
 	
-	border-top: thick solid darkslategray;
-	border-left: thick solid darkslategray;
+	border-top: 0.5em solid darkslategray;
+	border-left: 0.5em solid darkslategray;
 }
 /* This is for each "page" of the main, separated by a <hr> */
 main div {
