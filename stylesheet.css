@@ -15,15 +15,15 @@ header {
 	border-bottom: 0.5em solid lightseagreen;
 }
 header h1 {
-	color: mediumspringgreen;
+	color: lightseagreen;
 	font-weight: bold;
-	text-shadow: 0.1em 0.1em 0px lightseagreen;
+	text-shadow: 0.1em 0.1em 0px teal;
 	margin: 0;
 }
 header p {
-	color: mediumspringgreen;
+	color: lightseagreen;
 	font-weight: bold;
-	text-shadow: 0.1em 0.1em 0px lightseagreen;
+	text-shadow: 0.1em 0.1em 0px teal;
 }
 header a {
 	color: dodgerblue;
@@ -35,7 +35,7 @@ main {
 	padding: 0 1em;
 	background: paleturquoise;
 	border-bottom: 0.5em solid lightseagreen;
-	border-right: 0.5em solid lightseagreen;
+	border-right: 0.5em solid darkslategray;
 	
 	border-top: 0.5em solid darkslategray;
 	border-left: 0.5em solid darkslategray;
