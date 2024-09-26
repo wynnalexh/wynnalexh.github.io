@@ -34,22 +34,32 @@ main {
 	width: 65em;
 	padding: 0 1em;
 	background: paleturquoise;
-	border-bottom: 0.5em solid lightseagreen;
-	border-right: 0.5em solid darkslategray;
+	border-bottom: 0.5rem solid lightseagreen;
+	border-right: 0.5rem solid darkslategray;
 	
-	border-top: 0.5em solid darkslategray;
-	border-left: 0.5em solid darkslategray;
+	border-top: 0.5rem solid darkslategray;
+	border-left: 0.5rem solid darkslategray;
 }
 /* This is for each "page" of the main, separated by a <hr> */
 main div {
 	writing-mode: vertical-rl;
 	width: inherit;
-	height: 30em;
+	height: 45em;
 	padding: 1em 0;
 }
 main hr {
+	border-width: 0.5rem;
 	writing-mode: horizontal-tb;
+	border-color: lightseagreen darkslategray darkslategray darkslategray;
 	margin: 0;
+	border-style: solid;
+	display: block;
+	height: 1rem;
+	background-color: teal;
+}
+main h1 {
+	text-align: center;
+	padding: 1rem auto;
 }
 table, th, td {
 	border-width: 1px;
@@ -58,6 +68,9 @@ table, th, td {
 	border-collapse: collapse;
 	margin: auto;
 	writing-mode: horizontal-tb;
+}
+td a {
+	margin: auto;
 }
 table {
 	margin: 1em auto;
