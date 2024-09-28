@@ -57,9 +57,17 @@ main hr {
 	height: 1rem;
 	background-color: teal;
 }
-main h1 {
+main h2 {
 	text-align: center;
 	padding: 1rem auto;
+}
+main img {
+	width: 15rem;
+	margin: auto 1rem;
+	display: block;
+}
+main blockquote {
+	background-color: lightseagreen;
 }
 table, th, td {
 	border-width: 1px;
@@ -68,6 +76,7 @@ table, th, td {
 	border-collapse: collapse;
 	margin: auto;
 	writing-mode: horizontal-tb;
+	text-align: center;
 }
 td a {
 	margin: auto;
