@@ -63,6 +63,8 @@ main h2 {
 }
 main img {
 	width: 15rem;
+	margin: auto 1rem;
+	display: block;
 }
 main blockquote {
 	background-color: lightseagreen;
