@@ -62,10 +62,11 @@ main h2 {
 	padding: 1rem auto;
 }
 main img {
+	width: 23rem;
 	height: 41rem;
 	margin: 2rem;
 	display: block;
-
+	object-fit: contain;
 }
 main blockquote {
 	background-color: lightseagreen;
