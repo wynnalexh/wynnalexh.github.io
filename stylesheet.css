@@ -64,9 +64,15 @@ main h2 {
 main img {
 	width: 23rem;
 	height: 41rem;
-	margin: 2rem;
+	margin: 2rem 1rem;
 	display: block;
 	object-fit: contain;
+	box-sizing: border-box;
+	background-color: teal;
+
+	border-width: 0.5rem;
+	border-color: darkslategray darkslategray lightseagreen darkslategray;
+	border-style: solid;
 }
 main blockquote {
 	background-color: lightseagreen;
